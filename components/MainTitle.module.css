@@ -1,0 +1,57 @@
+.main-title-container {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  padding: 150px 50px;
+}
+.main-title-container h1 {
+  font-size: 3.75rem;
+}
+.main-title-container spam {
+  color: #8a4baf;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+}
+.welcome-text {
+  font-size: 1.5rem;
+  max-width: 55rem;
+  margin: 25px auto;
+}
+.main-title-container button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background: #663399;
+  border: 1px solid #663399;
+  color: white;
+  border: none;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .main-title-container h1 {
+    font-size: 2.75rem;
+  }
+  .welcome-text {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-title-container {
+    padding: 150px 20px;
+  }
+  .main-title-container h1 {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-title-container h1 {
+    font-size: 2rem;
+  }
+  .welcome-text {
+    font-size: 1.1rem;
+  }
+}

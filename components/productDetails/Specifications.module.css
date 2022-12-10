@@ -1,0 +1,12 @@
+.specifications div {
+    display: flex;
+}
+.specifications span {
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+}
+.specifications p {
+    font-weight: 600;
+    width: 100%;
+}

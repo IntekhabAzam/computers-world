@@ -1,0 +1,56 @@
+.mission-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 65px;
+  margin: 100px 0;
+}
+.mission-description {
+  margin-top: 8px;
+  max-width: 700px;
+}
+.mission-description h1 {
+  font-size: 2.625rem;
+  margin-top: 25px;
+}
+.mission-description p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.mission-image {
+  height: 100%;
+  width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .mission-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .mission-description {
+    margin: 0 0 35px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 600px) {
+  .mission-image {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mission-description h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mission-container {
+    padding: 20px;
+  }
+  .mission-image {
+    width: 250px;
+  }
+}
